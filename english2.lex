@@ -82,6 +82,7 @@ V_ROOT_NO_PREF:
 `slip   AfterVerb Verb(slip)
 `fly    AfterVerb Verb(fly)
 `ponder AfterVerb Verb(select)
+`dog    AfterVerb Verb(dog)
 
 V_SUFFIX:
 +able AfterVerbSuffix +ADJR
