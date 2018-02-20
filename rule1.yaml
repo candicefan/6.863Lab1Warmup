@@ -1,0 +1,21 @@
+boundary: '#'
+defaults: "a b c d e f g h i j k l m n o p q r s t u v w x y z + ` # 0"
+subsets:
+   "@": "a b c d e f g h i j k l m N n o p q r s t u v w x y z + ` # 0"
+rules:
+  N realized as m:
+    start:
+      'p:p': start
+      'N:n': two
+      'N:m': three
+      '@:@': start
+    two:
+      'N:n': two
+      'N:m': three
+      'p:p': reject
+      '@:@': start
+    rejecting state three:
+       'p:p': start
+       'N:m': reject
+       'N:n': reject
+       '@:@': reject

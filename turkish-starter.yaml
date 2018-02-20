@@ -1,0 +1,24 @@
+boundary: '#'
+lexicon: turkish.lex
+defaults: "a b c <c,> d e f g <g> h <i> i j k l m n o <o..> p r s <s,> t u <u..> v y z +:0 #"
+subsets:
+  "CONS": "b c <c,> d f g <g> h j k l m n p r s <s,> t v y z D Y C G"
+  "VOWEL": "a e i <i> o <o..> u <u..> E I"
+  "@": "a b c <c,> d e f g <g> h <i> i j k l m n o <o..> p r s <s,> t u <u..> v y z + D Y C G E I # 0"
+
+rules:
+  vowel harmony:
+   start:
+    '@': start
+
+  buffer consonants:
+   start:
+    '@': start
+
+  consonant harmony:
+   start:
+    '@': start
+
+  vowel dropping:
+   start:
+    '@': start

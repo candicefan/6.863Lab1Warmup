@@ -1,0 +1,68 @@
+# lines starting with # are ignored
+# line before group of tests give the name of that test group
+
+Vowel Harmony
+el+YI ==> eli
+it+YI ==> iti
+g<o..>z+YI ==> g<o..>z<u..>
+k<u..>l+YI ==> k<u..>l<u..>
+at+YI ==> at<i>
+k<i>z+YI ==> k<i>z<i>
+kol+YI ==> kolu
+kul+YI ==> kulu
+el+YE ==> ele
+it+YE ==> ite
+g<o..>z+YE ==> g<o..>ze
+k<u..>l+YE ==> k<u..>le
+at+YE ==> ata
+k<i>z+YE ==> k<i>za
+kol+YE ==> kola
+kul+YE ==> kula
+memur+YI ==> memuru
+insan+YI ==> insan<i>
+kamyon+YI ==> kamyonu
+otob<u..>s+YI ==> otob<u..>s<u..>
+gel+Iyor ==> geliyor
+a<c,>+Iyor ==> a<c,><i>yor
+dur+Iyor ==> duruyor
+g<u..>l+Iyor ==> g<u..>l<u..>yor
+gel+Iyor+sInIz ==> geliyorsunuz
+at+lEr ==> atlar
+adam+lEr ==> adamlar
+yorgun+ken ==> yorgunken
+
+Buffer Consonants
+a<c,>+YIm ==> a<c,><i>m
+hasta+YIm ==> hastay<i>m
+tembel+YIm ==> tembelim
+iyi+YIm ==> iyiyim
+yorgun+YIm ==> yorgunum
+k<o..>t<u..>+YIm ==> k<o..>t<u..>y<u..>m
+
+Consonant Harmony
+a<c,>+DIr ==> a<c,>t<i>r
+<c,>al<i><s,>kan+DIr ==> <c,>al<i><s,>kand<i>r
+hasta+DIr ==> hastad<i>r
+ho<s,>+DIr ==> ho<s,>tur
+yorgun+DIr ==> yorgundur
+
+Vowel Dropping
+el+Im ==> elim
+anne+Im ==> annem
+ba<s,>+Im ==> ba<s,><i>m
+baba+Im ==> babam
+
+Noun Endings
+kitab+Im+YI ==> kitab<i>m<i>
+kitab+lEr+Im+YI ==> kitaplar<i>m<i>
+
+More Examples
+oku+mEg ==> okumak
+oku+DI+m ==> okudum
+oku+DI+n ==> okudun
+gel+mEg ==> gelmek
+gel+mE+DI+0 ==> gelmedi
+yemek+Im ==> yemekim
+ye+mEk ==> yemek
+ye+DI+nIz ==> yediniz
+yorgun+sInIz ==> yorgunsunuz
