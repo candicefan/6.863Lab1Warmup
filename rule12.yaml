@@ -8,7 +8,6 @@ rules:
       'p:p': start
       'N:n': two
       'N:m': three
-      'm:m': four
       '@:@': start
     two:
       'N:n': two
@@ -16,7 +15,6 @@ rules:
       'p:p': reject
       '@:@': start
     rejecting state three:
-       'p:m': four
        'p:p': start
        'N:m': reject
        'N:n': reject
@@ -24,12 +22,13 @@ rules:
 
   p realized as m:
     start:
-       'm:m': four
+       'm:m': two
+       'N:m': two
        'p:m': reject
        'p:p': start
        '@:@': start
-    four:
-       'm:m': four
-       'p:m': four
+    two:
+       'm:m': two
+       'p:m': two
        'p:p': reject
        '@:@': start
