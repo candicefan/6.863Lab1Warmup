@@ -53,11 +53,10 @@ rules:
       '@:@': start
       'p:m': reject
     rejecting state three:
-      'm:m': three
-      'p:m': three
+      'm:m': start
+      'p:m': start
       'p:p': reject
-      'N:m': reject
       'N:n': reject
-      '@:@': reject
+      '@:@': start
 
 
