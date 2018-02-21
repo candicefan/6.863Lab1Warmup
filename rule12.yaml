@@ -46,6 +46,7 @@ rules:
       'N:n': two
       'N:m': three
       '@:@': start
+      'p:m': reject
     two:
       'N:n': two
       'N:m': three
@@ -53,8 +54,8 @@ rules:
       '@:@': start
       'p:m': reject
     rejecting state three:
-      'm:m': start
-      'p:m': start
+      'm:m': three
+      'p:m': three
       'p:p': reject
       'N:n': reject
       '@:@': start
